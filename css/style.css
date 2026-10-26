@@ -1,0 +1,88 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.tabuada{
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+#resultado{
+    margin: 20px auto;
+    width: 200px;
+    font-size: 18px;
+}
+
+.linha{
+    border: 1px solid rgb(151, 151, 196);
+    padding: 8px;
+    margin: 2px 0;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#link{
+    display: block;
+
+    width: 60%;
+
+    padding: 14px;
+
+    margin-top: 5px;
+
+    border-radius: 9px;
+
+    background: #3498db;
+
+    color: white;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 4px 10px rgba(52, 152, 219, 0.25);
+
+    transition: 0.2s;
+    display: inline-block;
+}
+
+#link:hover{
+    background: blue;
+}
